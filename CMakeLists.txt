@@ -10,10 +10,10 @@ set(version 1.3.0)
 
 message("Adding source files")
 set(LWLOG_SOURCE_FILES
-    ${CMAKE_SOURCE_DIR}/lwlog/src/registry.cpp
-    ${CMAKE_SOURCE_DIR}/lwlog/src/details/pattern/alignment_formatter.cpp
-    ${CMAKE_SOURCE_DIR}/lwlog/src/details/pattern/attribute.cpp
-    ${CMAKE_SOURCE_DIR}/lwlog/src/details/pattern/pattern.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/lwlog/src/registry.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/lwlog/src/details/pattern/alignment_formatter.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/lwlog/src/details/pattern/attribute.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/lwlog/src/details/pattern/pattern.cpp
 )
 
 message("Creating lwlog library")
